@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0",
+	"FriendlyName": "CommonProfiler",
+	"Description": "Pet project for personal purpouse",
+	"Category": "Other",
+	"CreatedBy": "Denis Dubin",
+	"CreatedByURL": "https://www.linkedin.com/in/denis-dubin/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CommonProfiler",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
