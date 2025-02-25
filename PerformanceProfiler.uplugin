@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0",
+	"FriendlyName": "PerformanceProfiler",
+	"Description": "Pet project for personal purposes",
+	"Category": "Other",
+	"CreatedBy": "Denis Dubin",
+	"CreatedByURL": "https://www.linkedin.com/in/denis-dubin/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
