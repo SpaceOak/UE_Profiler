@@ -2,16 +2,16 @@
 
 using UnrealBuildTool;
 
-public class CommonProfiler : ModuleRules
+public class CommonProfilerRuntime : ModuleRules
 {
-	public CommonProfiler(ReadOnlyTargetRules Target) : base(Target)
+	public CommonProfilerRuntime(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
 				// ... add public include paths required here ...
-				//"CommonProfiler/Public"
+				//"CommonProfilerRuntime/Public"
 			}
 			);
 				
@@ -19,7 +19,7 @@ public class CommonProfiler : ModuleRules
 		PrivateIncludePaths.AddRange(
 			new string[] {
 				// ... add other private include paths required here ...
-				//"CommonProfiler/Private"
+				//"CommonProfilerRuntime/Private"
 			}
 			);
 			
@@ -27,7 +27,11 @@ public class CommonProfiler : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core",                
+				"CoreUObject",
+				"Engine",
+				"RHI",          
+				"RenderCore"  
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -46,8 +50,8 @@ public class CommonProfiler : ModuleRules
 				"UnrealEd",
 				"LevelEditor",
 				"InteractiveToolsFramework",
-				"EditorInteractiveToolsFramework",
-				"CommonProfilerRuntime"
+				"RenderCore",
+				"EditorInteractiveToolsFramework"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
@@ -56,6 +60,7 @@ public class CommonProfiler : ModuleRules
 		DynamicallyLoadedModuleNames.AddRange(
 			new string[]
 			{
+				
 				// ... add any modules that your module loads dynamically here ...
 			}
 			);

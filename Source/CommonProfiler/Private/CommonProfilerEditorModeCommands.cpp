@@ -10,7 +10,7 @@ FCommonProfilerEditorModeCommands::FCommonProfilerEditorModeCommands()
 	: TCommands<FCommonProfilerEditorModeCommands>("CommonProfilerEditorMode",
 		NSLOCTEXT("CommonProfilerEditorMode", "CommonProfilerEditorModeCommands", "CommonProfiler Editor Mode"),
 		NAME_None,
-		FEditorStyle::GetStyleSetName())
+		FAppStyle::GetAppStyleSetName())
 {
 }
 
