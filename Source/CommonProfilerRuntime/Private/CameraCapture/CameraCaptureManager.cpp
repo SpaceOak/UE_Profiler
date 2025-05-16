@@ -12,9 +12,8 @@
 #include "ShowFlags.h"
 #include "Materials/Material.h"
 #include "RHICommandList.h"
-#include "ImageWrapper/Public/IImageWrapper.h"
-#include "ImageWrapper/Public/IImageWrapperModule.h"
-#include "ImageUtils.h"
+#include "IImageWrapper.h"
+#include "IImageWrapperModule.h"
 #include "Modules/ModuleManager.h"
 #include "Misc/FileHelper.h"
 
