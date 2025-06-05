@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "CommonProfilerInteractiveTool.h"
+#include "CommonProfiler/Public/Tools/CommonProfilerInteractiveTool.h"
 #include "InteractiveToolManager.h"
 #include "ToolBuilderUtil.h"
 #include "BaseBehaviors/ClickDragBehavior.h"
