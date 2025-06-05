@@ -2,3 +2,7 @@
 
 **/Intermediate/
 **/Binaries/
+
+
+# Ignore Personal folder
+**/Personal/
